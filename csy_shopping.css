@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 5fr 2fr;
+}
+#nav {
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 100px;
+    background-color: #FFCA4B;
+    font-size: 30px;
+}
+th {
+    font-size: 20px;
+}
+#csy_shoppingMenu {
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+#csy_shoppingMain {
+    grid-column: 3 / 4;
+    grid-row: 2;
+}
+#csy_furnitureBed {
+    display: grid;
+    grid-template-rows: 20px 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+#csy_shoppingTitle {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.csy_img {
+    width: 300px;
+    border-radius: 10px;
+}
